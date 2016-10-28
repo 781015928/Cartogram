@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="application.myapplication.MainActivity">
+        <FrameLayout
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <application.myapplication.PkLineView
+                android:id="@+id/pkview"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                />
+        </FrameLayout>
+        <SeekBar
+            android:max="100"
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/textview"
+            android:textSize="40dp"
+            android:text="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <application.myapplication.PkCircleView
+            android:id="@+id/pkcircleview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+        <SeekBar
+            android:max="100"
+            android:id="@+id/seekbar1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <SeekBar
+            android:max="100"
+            android:id="@+id/seekbar2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <SeekBar
+            android:max="100"
+            android:id="@+id/seekbar3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <SeekBar
+            android:max="100"
+            android:id="@+id/seekbar4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
