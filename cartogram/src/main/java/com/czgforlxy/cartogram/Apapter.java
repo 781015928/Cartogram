@@ -1,5 +1,7 @@
-package application.myapplication;
+package com.czgforlxy.cartogram;
 
+import application.myapplication.Fanned;
+import application.myapplication.PkCircleViewAdapter;
 
 /**
  * 类 名 称  ： Apapter.class

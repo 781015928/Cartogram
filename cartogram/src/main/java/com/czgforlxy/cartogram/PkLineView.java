@@ -1,4 +1,4 @@
-package application.myapplication;
+package com.czgforlxy.cartogram;
 
 import android.content.Context;
 import android.graphics.Canvas;

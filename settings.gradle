@@ -1,1 +1,1 @@
-include ':cartogram'
+include ':cartogram', ':mylibrary'

@@ -1,4 +1,4 @@
-package application.myapplication;
+package com.czgforlxy.cartogram;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,7 +19,7 @@ import java.text.DecimalFormat;
 public class PkCircleView extends View {
 
 
-    private  PkCircleViewAdapter adapter;
+    private PkCircleViewAdapter adapter;
     private int height;
     private int width;
     private Paint circlePaint;

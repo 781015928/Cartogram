@@ -1,5 +1,4 @@
-package application.myapplication;
-
+package com.czgforlxy.cartogram;
 
 import android.graphics.Color;
 

@@ -1,5 +1,4 @@
-package application.myapplication;
-
+package com.czgforlxy.cartogram;
 
 /**
  * 类 名 称  ： PkCircleViewAdapter.class
